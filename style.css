@@ -117,3 +117,51 @@ button {
     padding: 8px;
     margin-right: 10px;
 }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.color_title h1{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.color_title{
+    background-color: #00abe4;
+    
+}
+.color_title h1{
+    border: 1px solid #00abe4;
+    border-bottom: 1px solid black;
+}
+.cuadro_padre{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-radius: 3px;
+    border-collapse: separate;
+    border-spacing: 2px 5px;
+}
+.tabla_1{
+    padding: 1px;
+    background-color: whitesmoke;
+}
+.tabla_1 thead tr th{
+    font-size: 20px;
+    padding: 1px 10px;
+}
+.tabla_1 tr td{
+    border: 3px double black;
+    border-radius: 2px;
+}
+.table_container{
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 431px;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color:whitesmoke;
+}
