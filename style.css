@@ -1,10 +1,11 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    color: white;
+    height: 100%;
 }
 
 .sidebar {
+    float: left;
     width: 20%;
 }
 
@@ -38,4 +39,76 @@ body {
 .sidebar-item a {
     color: white;
     text-decoration: none;
+}
+
+html{ height:100%; }
+.filtro{
+    background-image: url("./img/paisaje2d.jpg");
+    margin:0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    
+}
+.container{
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    margin:  0 auto;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #00aae4;
+    margin: 0;
+    color: #fdfff1;
+}
+
+input{
+    float: right;
+    clear: both;
+    width: 250px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 2px 2px 4px  #514a48;
+    height: 20px;
+}
+
+.botones{
+    margin: 0 auto;
+    width: 190px;
+}
+
+.formulario{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #fdfff1;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+    
+}
+
+.form{
+    box-shadow: 2px 2px 4px #514a48;
+}
+
+button{
+    border: 0;
+    box-shadow: 2px 2px 4px #514a48;
+    font-size: 12px;
+    background-color: #00aae4;
+    color: #fdfff1;
+    padding: 8px;
+    margin-right: 10px;
 }
