@@ -184,3 +184,19 @@ table {
 h1 {
     text-shadow: 2px 2px 4px #514a48;
 }
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-style: none;
+}
+
+.icon1{
+    font-size: 20px;
+    color:green;
+}
+.icon2{
+    font-size: 20px;
+    color: red;
+}
