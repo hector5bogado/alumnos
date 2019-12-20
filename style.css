@@ -50,14 +50,11 @@ html {
 .filtro {
     background-image: url("./img/paisaje2d.jpg");
     margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-direction: column;
 }
 
 .container {
@@ -125,21 +122,18 @@ button {
 }
 .color_title h1{
     color:white;
-    display: flex;
-    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .color_title{
     background-color: #00abe4;
-    
+    width: 500px;
+    border-radius: 5px;
 }
-.color_title h1{
-    border: 1px solid #00abe4;
-    border-bottom: 1px solid black;
-}
-.cuadro_padre{
+/* .cuadro_padre{
     display: flex;
     justify-content: center;
-}
+} */
 table{
     border-radius: 3px;
     border-collapse: separate;
@@ -159,9 +153,16 @@ table{
 }
 .table_container{
     width: 500px;
-    border: 1px solid black;
-    margin-left: 431px;
-    margin-top: 5%;
-    border-radius: 5px;
+    margin: 0 auto;
     background-color:whitesmoke;
+    flex-direction: column;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-border{
+    border:1px solid black;
+    border-radius: 5px;
 }
