@@ -1,10 +1,11 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    color: white;
+    height: 100%;
 }
 
 .sidebar {
+    float: left;
     width: 20%;
 }
 
@@ -41,7 +42,7 @@ body {
 }
 
 html{ height:100%; }
-body{
+.filtro{
     background-image: url("./img/paisaje2d.jpg");
     margin:0;
     display: -webkit-box;
